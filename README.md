@@ -18,3 +18,4 @@
 Скачать [qbec](https://github.com/splunk/qbec/releases), распаковать и переместить в /usr/local/bin </br>
 https://harsimranmaan.medium.com/qbec-the-deployment-tool-for-multiple-kubernetes-environments-c39b6bd7ea07 </br>
 https://github.com/aak74/kubernetes-for-beginners/tree/master/deploy/qbec </br>
+https://qbec.io/userguide/usage/authoring/ </br>
