@@ -28,3 +28,4 @@ https://www.convertjson.com/yaml-to-json.htm </br>
 `qbec component list default` </br>
 `qbec param list default` </br>
 `qbec validate default` </br>
+![Schem](https://github.com/murzinvit/screen_1/blob/e73e4d0b12baaf9c27ff8c77f0bd0857390eed61/Schem.jpg) 
