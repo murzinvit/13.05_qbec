@@ -9,13 +9,16 @@
 * production окружение — каждый компонент в трёх экземплярах;
 * для production окружения нужно добавить endpoint на внешний адрес.
 ---
-
-
-
-
-### working notes: </br>
-Установка qbec:
+Установка qbec: </br>
 Скачать [qbec](https://github.com/splunk/qbec/releases), распаковать и переместить в /usr/local/bin </br>
+Приложение для qbec: [qbec-dev6app](https://github.com/murzinvit/13.05_qbec/tree/main/qbec-dev6app) </br>
+Создать namespace - `kubectl create ns stage`, `kubectl create ns prod` </br>
+Запуск в stage окружении: `qbec apply stage` </br>
+![qbec_stage](https://github.com/murzinvit/screen_1/blob/e47544d20c5b1b4c24056b8e65312fd8ed3f65d2/Kubec_qbec_stage.jpg) </br>
+
+---
+### working notes: </br>
+
 https://harsimranmaan.medium.com/qbec-the-deployment-tool-for-multiple-kubernetes-environments-c39b6bd7ea07 </br>
 https://github.com/aak74/kubernetes-for-beginners/tree/master/deploy/qbec </br>
 https://qbec.io/userguide/usage/authoring/ </br>
