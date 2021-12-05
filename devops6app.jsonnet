@@ -58,7 +58,7 @@ local params = p.components.devops6app;
       }
    },
    "spec": {
-      "replicas": 1,
+      "replicas": params.replicasBack,
       "selector": {
          "matchLabels": {
             "name": "backend"
@@ -74,7 +74,7 @@ local params = p.components.devops6app;
             "containers": [
                {
                   "name": "backend",
-                  "image": "murzinvit/backend:latest",
+                  "image": params.imageBack,
                   "imagePullPolicy": "IfNotPresent",
                   "ports": [
                      {
@@ -103,7 +103,7 @@ local params = p.components.devops6app;
       }
    },
    "spec": {
-      "replicas": 1,
+      "replicas": params.replicasDb,
       "selector": {
          "matchLabels": {
             "name": "db"
@@ -119,7 +119,7 @@ local params = p.components.devops6app;
             "containers": [
                {
                   "name": "db",
-                  "image": "murzinvit/db:latest",
+                  "image": params.imageDb,
                   "imagePullPolicy": "IfNotPresent",
                   "ports": [
                      {
