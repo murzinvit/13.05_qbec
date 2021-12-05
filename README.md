@@ -12,13 +12,14 @@
 Установка qbec: </br>
 Скачать [qbec](https://github.com/splunk/qbec/releases), распаковать и переместить в /usr/local/bin </br>
 Приложение для qbec: [qbec-dev6app](https://github.com/murzinvit/13.05_qbec/tree/main/qbec-dev6app) </br>
-Json для stage окружения: [devops6app.jsonnet](https://github.com/murzinvit/13.05_qbec/blob/fc9bce8cacbf0be7fc22b50d405b4c039d68c3fd/qbec-dev6app/components/devops6app.jsonnet) </br>
+Json для stage окружения: [devops6app.jsonnet](https://github.com/murzinvit/13.05_qbec/blob/e9e293106be908117a9408cf6b9ee7f5dd847261/devops6app.jsonnet) </br>
 Создать namespace - `kubectl create ns stage` </br>
 Запуск в stage окружении: `qbec apply stage` </br>
 ![qbec_stage](https://github.com/murzinvit/screen_1/blob/e47544d20c5b1b4c24056b8e65312fd8ed3f65d2/Kubec_qbec_stage.jpg) </br>
 Создать namespace - `kubectl create ns prod` </br>
-Запуск в stage окружении: `qbec apply prod` </br>
-Json для prod окружения с внешним endpoint: [devops6app.jsonnet](https://github.com/murzinvit/13.05_qbec/blob/fc9bce8cacbf0be7fc22b50d405b4c039d68c3fd/devops6app.jsonnet) </br>
+Для запуска в stage окружении переместить соответствующий devops6app.jsonnet в папку - components </br>
+Выполнить команду: `qbec apply prod` </br>
+Json для prod окружения с внешним endpoint: [devops6app.jsonnet](https://github.com/murzinvit/13.05_qbec/blob/e9e293106be908117a9408cf6b9ee7f5dd847261/qbec-dev6app/components/devops6app.jsonnet) </br>
 ![qbec_prod](https://github.com/murzinvit/screen_1/blob/236d083a9461aed2e200e270b7e2813bf405e7e9/Kuber_qbec_prod.jpg) </br>
 Доступ из браузера: </br>
 ![stage_web](https://github.com/murzinvit/screen_1/blob/15f4b6e9183653b60e6be508d0714e0aa78be46d/Kuber_qbec_stage_web.jpg) </br>
