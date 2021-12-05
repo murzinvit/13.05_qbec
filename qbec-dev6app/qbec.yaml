@@ -1,0 +1,13 @@
+apiVersion: qbec.io/v1alpha1
+kind: App
+metadata:
+  name: devops6app
+spec:
+  environments:
+    stage:
+      defaultNamespace: stage
+      server: https://127.0.0.1:6443
+    prod:
+      defaultNamespace: prod
+      server: https://127.0.0.1:6443
+  vars: {}

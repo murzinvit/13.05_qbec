@@ -1,0 +1,6 @@
+{
+  components: { // required
+    stage: {
+    },
+  },
+}
