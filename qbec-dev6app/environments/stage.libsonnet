@@ -1,12 +1,14 @@
-{
-  components: { // required
-    devops6app: {
-       replicasFront: 1,
-       replicasBack: 1,
-       replicasDb: 1,
+local base = import './base.libsonnet';
+
+base {
+  components +: {
+    devops6app +: {
+       replicasFront: 2,
+       replicasBack: 2,
+       replicasDb: 2,
        imageFront: "murzinvit/frontend:latest",
        imageBack: "murzinvit/backend:latest",
        imageDb: "murzinvit/db:latest",
     },
-  },
+  }
 }
