@@ -15,6 +15,7 @@
 Создать namespace - `kubectl create ns stage`, `kubectl create ns prod` </br>
 Запуск в stage окружении: `qbec apply stage` </br>
 ![qbec_stage](https://github.com/murzinvit/screen_1/blob/e47544d20c5b1b4c24056b8e65312fd8ed3f65d2/Kubec_qbec_stage.jpg) </br>
+![stage_web](https://github.com/murzinvit/screen_1/blob/15f4b6e9183653b60e6be508d0714e0aa78be46d/Kuber_qbec_stage_web.jpg) </br>
 
 ---
 ### working notes: </br>
