@@ -1,12 +1,15 @@
 
-// this file has the param overrides for the default environment
 local base = import './base.libsonnet';
 
 base {
   components +: {
-    hello +: {
-      indexData: 'hello default\n',
-      replicas: 2,
+    devops6app +: {
+       replicasFront: 1,
+       replicasBack: 1,
+       replicasDb: 1,
+       imageFront: "murzinvit/frontend:latest",
+       imageBack: "murzinvit/backend:latest",
+       imageDb: "murzinvit/db:latest",
     },
   }
 }

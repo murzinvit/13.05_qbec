@@ -4,6 +4,9 @@ metadata:
   name: devops6app
 spec:
   environments:
+    default:
+      defaultNamespace: default
+      server: https://127.0.0.1:6443
     stage:
       defaultNamespace: stage
       server: https://127.0.0.1:6443

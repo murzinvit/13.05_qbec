@@ -3,9 +3,9 @@ local base = import './base.libsonnet';
 base {
   components +: {
     devops6app +: {
-       replicasFront: 2,
-       replicasBack: 2,
-       replicasDb: 2,
+       replicasFront: 1,
+       replicasBack: 1,
+       replicasDb: 1,
        imageFront: "murzinvit/frontend:latest",
        imageBack: "murzinvit/backend:latest",
        imageDb: "murzinvit/db:latest",
