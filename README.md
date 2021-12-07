@@ -34,6 +34,7 @@ https://github.com/aak74/kubernetes-for-beginners/tree/master/deploy/qbec </br>
 https://qbec.io/userguide/usage/authoring/ </br>
 https://www.convertjson.com/yaml-to-json.htm </br>
 Endpoint: https://rtfm.co.ua/kubernetes-chto-takoe-endpoints/ </br>
+https://russianblogs.com/article/26711674839/ </br>
 `qbec show default`  </br>
 `qbec version` </br>
 `qbec env list` </br>
