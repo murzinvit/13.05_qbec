@@ -21,8 +21,8 @@ Json для stage окружения: [devops6app.jsonnet](https://github.com/mu
 Выполнить команду: `qbec apply prod` </br>
 Json для prod окружения с внешним endpoint: [devops6app.jsonnet](https://github.com/murzinvit/13.05_qbec/blob/e9e293106be908117a9408cf6b9ee7f5dd847261/qbec-dev6app/components/devops6app.jsonnet) </br>
 ![qbec_prod](https://github.com/murzinvit/screen_1/blob/236d083a9461aed2e200e270b7e2813bf405e7e9/Kuber_qbec_prod.jpg) </br>
-Доступ из браузера: </br>
-![qubec_validate](https://github.com/murzinvit/screen_1/blob/50cac239402e920076acca42d84e23e030b6dce4/Kuber_qubec_validate.jpg) </br>
+`qbec validate prod`: </br>
+![qbec_validate](https://github.com/murzinvit/screen_1/blob/50cac239402e920076acca42d84e23e030b6dce4/Kuber_qbec_validate.jpg) </br>
 
 ---
 ### working notes: </br>
