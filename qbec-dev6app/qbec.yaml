@@ -10,8 +10,6 @@ spec:
     stage:
       defaultNamespace: stage
       server: https://127.0.0.1:6443
-      excludes:
-        - endpoint
     prod:
       defaultNamespace: prod
       server: https://127.0.0.1:6443
@@ -19,5 +17,4 @@ spec:
         - endpoint
   vars: {}
   excludes:
-    - services
-    - ingress
+    - endpoint
